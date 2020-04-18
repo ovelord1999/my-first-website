@@ -1,0 +1,239 @@
+body {
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "SF Pro Display", sans-serif;
+  margin: 0;
+  padding-top: 120px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+h1 {
+  color: #4E5357;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+h2 {
+  color: #4E5357;
+  margin-block-end: 0.6em;
+  font-size: 30px;
+}
+
+p {
+  color: #C8C8C8;
+  font-size: 17px;
+  margin: 0 auto 40px;
+  width: 45%;
+  min-width: 290px;
+  line-height: 1.5;
+}
+
+.history-box {
+  margin-top: 50px;
+  padding-top: 1px;
+}
+
+.download {
+  padding: 10px 23px;
+  border-radius: 20px;
+  margin: 5px;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  color: white;
+  display: inline-block; /* try to find another solution for the buttons to fit inside the div without changing display type */
+}
+
+.download-ios {
+  background-color: #26BBA5;
+}
+
+.download-ios:hover {
+  background-color: #51C8B7;
+}
+
+.download-mac {
+  background-color: #6175FA;
+}
+
+.download-mac:hover {
+  background-color: #6E90FA;
+}
+
+.track-box {
+  margin-top: 100px;
+  padding-bottom: 1px;
+  margin-bottom: 50px;
+}
+
+.computer {
+  max-width: 90%;
+  height: auto;
+}
+
+.quicksearch {
+  margin-top: 0;
+}
+
+.retrieve-snippets {
+  margin-bottom: 0;
+}
+
+.computer-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 130px;
+}
+
+.computer-information-box {
+  text-align: left;
+  width: 40%;
+}
+
+.computer-information-box > p {
+  margin-left: 0;
+  width: 70%;
+}
+
+.devices-image {
+  margin-top: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+.supercharge-workflow {
+  margin-top: 0;
+}
+
+.features-box {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 80px auto 70px;
+}
+
+.features-box > div {
+  width: 33%;
+  height: auto;
+  min-width: 300px;
+}
+
+.features-box div p {
+  min-width: initial;
+  width: 55%
+}
+
+.feature-image-box {
+  height: 50px;
+}
+
+.partners-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.partners-box > div {
+  margin: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+}
+
+.footer {
+  margin-top: 150px;
+  background-color: #F5F6F8;
+  padding: 30px 0 30px 0;
+}
+
+.footer div a {
+  color: #4E5357;
+  text-decoration: none;
+}
+
+.footer div a:hover {
+  color: #5DCCBB;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  width: 60px;
+}
+
+.footer-links-box {
+  display: flex;
+  width: 41.5%;
+  flex-wrap: wrap;
+
+}
+
+.footer-links-box > a {
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-icons-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+  //width: calc(1700px - 100%);
+}
+
+/*
+.computer {
+  position: relative;
+  right: 30px;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.computer-box {
+  display: flex;
+}
+
+.computer-information-box {
+  position: relative;
+  margin-left: 50px;
+  width: 50%;
+  text-align: left;
+}
+
+.information-box {
+  display: inline-block;
+  text-align: left;
+  margin: auto auto auto auto;
+  width: 100%;
+  margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.information-box > p {
+  width: 60%;
+  margin-left: 0;
+}
+*/
